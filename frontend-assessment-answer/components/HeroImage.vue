@@ -14,3 +14,10 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+
+.test{
+    background-color: black;
+}
+</style>
