@@ -49,8 +49,9 @@ Build a responsive page based on the designs.
 1. Match the designs exactly. ✅
 2. Needs to be responsive. ✅
 
-For this exercise, I use the help of Figma to measure and approximate all the necessary sizing from padding, margin, gap and typography. 
+For this exercise, I used Figma to measure and approximate all necessary sizing, including padding, margin, gap, and typography. For the cards, I use a v-for loop instead of copying and pasting to ensure cleaner code and easier maintainability.
 
+Link for Figma measurement
 https://www.figma.com/design/gUPaCo6i2Wy78LjECLM9en/Frontend-Assesment?node-id=0-1
 
 To view the page when running the local server, navigate to the following URL: `http://localhost:3000`
