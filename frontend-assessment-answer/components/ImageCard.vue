@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow p-5"
+    class="flex flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow p-5 mb-10"
   >
     <NuxtImg
       class="rounded"
