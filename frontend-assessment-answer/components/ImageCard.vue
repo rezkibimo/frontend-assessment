@@ -8,6 +8,7 @@
       width="400"
       src="https://via.placeholder.com/400x300"
       alt="Card Image"
+      lazy
     />
     <div class="flex flex-col mt-5 flex-grow">
       <p class="mb-4 text-base flex-grow">
