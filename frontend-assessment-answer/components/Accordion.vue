@@ -5,7 +5,7 @@
     <!-- Accordion Title -->
     <div v-for="(item, index) in items" :key="index">
       <button
-        class="flex items-center justify-between w-full p-5 font-medium rtl:text-right border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 gap-3"
+        class="flex items-center justify-between w-full p-5 font-medium rtl:text-right border border-gray-200 focus:ring-4 focus:ring-blue-200 gap-3"
         :class="{
           'bg-blue-100 border-blue-500 text-blue-600 font-bold':
             activeIndex === index,
@@ -39,7 +39,7 @@
 
         <!-- Accordion Contents uses v-html to inject JSON data and ensure the formatting is correct -->
         <div
-          class="p-5 border border-b-0 border-gray-200"
+          class="p-5 border border-gray-200"
           v-html="item.content"
         ></div>
       </div>
