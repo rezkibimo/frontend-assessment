@@ -1,6 +1,6 @@
 <template>
   <div class="container m-auto">
-    <h1 class="h1">Tablet and Desktop</h1>
+    <h3 class="text-4xl font-extrabold mb-4">Tab Group Component</h3>
     <!-- Tab Name -->
     <div class="mb-4 border-b border-gray-200">
       <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" role="tablist">

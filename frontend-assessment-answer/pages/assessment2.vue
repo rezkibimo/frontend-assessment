@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeroImage />
-    <component :is="dynamicComponent" :items="sectionItems" />
+    <component :is="dynamicComponent" :items="sectionItems" class="px-6 md:px-0" />
   </div>
 </template>
 
