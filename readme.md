@@ -1,40 +1,80 @@
 Introduction
 ---
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+For this assessment, I used Nuxt 3 (Vue 3) and Tailwind CSS. Instructions to run the page locally are provided, and a live preview is available through Vercel.
+
+## Setup
+Go to the frontend-assessment-answer folder 
+
+```cd frontend-assessment-answer```
+
+Then make sure to install the dependencies:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
 
 Exercise 1
 ---
 Build a responsive page based on the designs.
 
+For the measurement, I use the help of Figma to measure and approximate all the necessary sizing from padding, margin, gap and typography. 
+
+https://www.figma.com/design/gUPaCo6i2Wy78LjECLM9en/Frontend-Assesment?node-id=0-1
+
+To view the page when running the local server, navigate to the following URL: `http://localhost:3000`
+
+Alternatively, use the link below to see a live preview:
+https://frontend-assessment-wheat.vercel.app/
+
 ##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
-
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
-
-##### Assets
-* Desktop banner - https://via.placeholder.com/1920x650
-* Mobile banner - https://via.placeholder.com/600x600
-* Content images - https://via.placeholder.com/400x300
+1. Match the designs exactly. ✅
+2. Needs to be responsive. ✅
 
 Exercise 2
 ---
 Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
 
 ##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
+1. Display data in tabs on desktop. ✅
+2. Display data in an accordion on mobile. ✅
+3. Only 1 accordion/tab should be open at a time. ✅
+4. Open the first accordion/tab on load. ✅
+5. If the open accordion is selected, close it. ✅
 
 ###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+* Improve the user experience with meaningful animations/transitions. ✅
+* Design and styling. ✅
+* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`. ✅
 
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+To view the page when running the local server, navigate to the following URL: `http://localhost:3000/exercise-2`
+
+Alternatively, use the link below to see a live preview:
+https://frontend-assessment-wheat.vercel.app/exercise-2
