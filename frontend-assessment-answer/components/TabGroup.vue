@@ -1,9 +1,8 @@
 <template>
   <div class="container m-auto">
     <h1 class="h1">Tablet and Desktop</h1>
-
     <!-- Tab Name -->
-    <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+    <div class="mb-4 border-b border-gray-200">
       <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" role="tablist">
         <li v-for="(tab, index) in items" :key="tab.index">
           <button
@@ -25,7 +24,7 @@
       <div
         v-for="(tab, index) in items"
         :key="tab.index"
-        class="p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+        class="p-4 rounded-lg bg-gray-50"
         :id="tab.index"
         role="tabpanel"
         :aria-labelledby="`tab-${index}`"
