@@ -24,22 +24,25 @@
 
 <script setup>
 import { Accordion, TabGroup } from "#components";
+
+// Import data.json to the component
 import sectionItems from "~/data/data.json";
 
-// Dynamic component by default is Tab Group
+// Set the Dynamic component by default to Tab Group
 const dynamicComponent = shallowRef(TabGroup);
 
-// Check if the screen width is les than 640px if yes the it become Accordion else it become Tab Group
+// Function to check if the screen width is les than 640px if yes the it become Accordion else it become Tab Group
 function updateComponent() {
   dynamicComponent.value = window.innerWidth < 640 ? Accordion : TabGroup;
 }
 
-// add event listener on mount to check for window size
+// On mount add a new event listener on mount to check for window size
 onMounted(() => {
   updateComponent();
   window.addEventListener("resize", updateComponent);
 });
 
+// Watch for window width size change
 watch(() => window.innerWidth, updateComponent);
 
 // Bonus point

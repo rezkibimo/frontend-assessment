@@ -1,4 +1,5 @@
 <template>
+  <!-- Div wrapper with the background image -->
   <div
     class="relative h-[600px] md:h-[650px] bg-cover bg-center mb-10 background-image"
   >

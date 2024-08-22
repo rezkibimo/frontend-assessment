@@ -10,7 +10,7 @@
         height="300"
         width="400"
         src="https://via.placeholder.com/400x300"
-        alt="Card Image"
+        alt="Tab Group Image"
         lazy
       />
       <div class="lg:basis-6/12">
@@ -37,8 +37,9 @@
           </ul>
         </div>
 
-        <!-- Tab Contents -->
+        <!-- Tab Body -->
         <div>
+          <!-- Tab Contents uses v-html to inject JSON data and ensure the formatting is correct -->
           <div
             v-for="(tab, index) in items"
             :key="tab.index"
