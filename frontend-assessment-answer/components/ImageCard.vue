@@ -17,7 +17,7 @@
       <div class="flex justify-center mt-auto">
         <button
           type="button"
-          class="bg-white border border-black border-[3px] font-medium rounded-full text-sm font-bold p-3.5 tracking-[0.2em]"
+          class="bg-white border border-black border-[3px] font-medium rounded-full text-sm font-black p-3.5 tracking-[0.2em]"
         >
           READ MORE
         </button>
