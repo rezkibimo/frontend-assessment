@@ -56,7 +56,7 @@ https://www.figma.com/design/gUPaCo6i2Wy78LjECLM9en/Frontend-Assesment?node-id=0
 To view the page when running the local server, navigate to the following URL: `http://localhost:3000`
 
 Alternatively, use the link below to see a live preview:
-https://frontend-assessment-wheat.vercel.app/
+https://mindarc-frontend-assessment.vercel.app/
 
 Exercise 2
 ---
@@ -79,4 +79,4 @@ For this exercise, I utilized Nuxt (Vue) native dynamic component feature to cha
 To view the page when running the local server, navigate to the following URL: `http://localhost:3000/exercise-2`
 
 Alternatively, use the link below to see a live preview:
-https://frontend-assessment-wheat.vercel.app/exercise-2
+https://mindarc-frontend-assessment.vercel.app/exercise-2
