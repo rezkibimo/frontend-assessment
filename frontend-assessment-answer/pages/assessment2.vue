@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Dynamic Component test Example</h1>
+    <HeroImage />
     <component :is="dynamicComponent" :items="sectionItems" />
   </div>
 </template>
