@@ -46,6 +46,7 @@ const props = defineProps({
   },
 });
 
+// Tab item 0 or the first one will always open on load
 const currentTab = ref(0);
 
 </script>
