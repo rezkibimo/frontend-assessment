@@ -30,8 +30,8 @@
         role="tabpanel"
         :aria-labelledby="`tab-${index}`"
         v-show="currentTab === index"
+        v-html="tab.content"
       >
-        {{ tab.content }}
       </div>
     </div>
   </div>

@@ -19,7 +19,8 @@ const props = defineProps({
   },
 });
 
-const activeIndex = ref(null);
+// Accordion item 0 or the first one will always open on load
+const activeIndex = ref(0);
 
 function toggle(index) {
   activeIndex.value = activeIndex.value === index ? null : index;
